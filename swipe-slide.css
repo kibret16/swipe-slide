@@ -1,0 +1,34 @@
+.swipe-slide {
+  position: relative;
+}
+.scroll-buttons-container {
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  z-index: 99999;
+  vertical-align: middle;
+}
+.scroll-buttons {
+  position: relative;
+  width: 100%;
+}
+.scroll-left {
+  left: 0px; float: left;
+}
+.scroll-right {
+  right: 0px; float: right;
+}
+.swipe-slide-container{
+  transition: .25s;
+  overflow-x: scroll; 
+  white-space: nowrap;
+}
+.swipe-slide-item{
+  float: none; 
+  display: inline-block; 
+  vertical-align: top;
+  font-size: 0;
+}
+.swipe-slide-item .skjf {
+  width: 100%; height: 300px; background: #333;
+}
